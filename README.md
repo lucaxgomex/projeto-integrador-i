@@ -12,6 +12,11 @@ Repositório para os arquivos da matéria de projeto integrador 1
 7. Arquitetura de computadores
 
 - José Ricardo
+1. Arquitetura de computadores
+2. Programação para internet I
+3. Sistemas Operacionais
+4. Engenharia de Software II
+5. Banco de dados II
 
 - Breno Avelar
 1. Arquitetura de computadores
