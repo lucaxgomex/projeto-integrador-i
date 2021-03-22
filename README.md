@@ -12,7 +12,7 @@ Repositório para os arquivos da matéria de projeto integrador 1
 Financer (provisório)
 
 ## Área
--> Produtividade
+-> Financeira
 
 ## Problema a ser resolvido
 -> Melhorar a gestão de gastos pessoais.
