@@ -9,14 +9,13 @@ Repositório para os arquivos da matéria de projeto integrador 1
 - Breno Avelar: Arquitetura de computadores, Projeto Integrador I, Engenharia de Software II, Sistemas Operacionais
 
 ## Nome do projeto
-MyAn
+Financer (provisório)
 
 ## Área
 -> Produtividade
 
 ## Problema a ser resolvido
--> Melhorar a organização de tarefas a serem realizadas.
--> Manter o foco em atividades do dia-a-dia.
+-> Melhorar a gestão de gastos pessoais.
 
 ## Como será resolvido o problema
--> Será criado um aplicação que permite adicionar rapidamente as tarefas e priorizar as atividades mais urgentes. (Uma aplicação de notas).
+-> Será criado um aplicação que permite adicionar rapidamente os gastos efetuados da maneira mais simples possível de modo que o usuário não precise navegar em diversas tela e nem tenha que preencher um formulário grande, o que pode acabar afastando o usuário que quer algo simples e prático.
