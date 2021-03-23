@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+main {
+    flex: 1;
+    background-color: #40A24A;
+}
