@@ -5,13 +5,13 @@
 
 #saldo {
     position: absolute;
-    background-color: aliceblue;
-    width: 20vw;
-    height: 5vh;
-    border-radius: 20px;
     top: 25vh;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     color: green;
+    width: 20vw;
+    height: 5vh;
 }
 
 #main {
@@ -22,10 +22,91 @@
     height: 40vh;
     bottom: 25vh;
     background-color: rgb(210, 213, 216);
-    opacity: 0.6;
-    
+    opacity: 0.3;
 }
 
 h4 {
+    position: absolute;
+    top: 37vh;
     
+}
+
+.details{
+    position: absolute;
+    width: 20vw;
+    height: 7vh;
+    border-radius: 20px;
+    background-color: aliceblue;
+    border: 1px solid;
+    font-family: sans-serif;
+    font-size:xx-small;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#detail1 {
+    position: absolute;
+    top: 43vh;
+}
+
+span {
+    color: red;
+    font-size: smaller;
+}
+
+.desc {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.number {
+    margin-right: 15px;
+    margin-top: 2px;
+}
+
+
+#detail2 {
+    position: absolute;
+    top: 53vh;
+}
+
+
+#detail3 {
+    position: absolute;
+    top: 63vh;
+}
+
+a {
+    position: absolute;
+    top: 68vh;
+    font-size: small;
+    text-decoration: none;
+    margin-top: 10px;
+    color: rgb(19, 19, 20);
+}
+
+
+a:hover {
+    animation-name: up;
+    animation-duration:300ms;
+    animation-fill-mode: backwards;
+
+}
+
+img {
+    width: 15px;
+    height: 15px;
+}
+
+#NewR {
+    position: absolute;
+    top: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#NewR:hover {
+    background-color: #85b88a;
 }
