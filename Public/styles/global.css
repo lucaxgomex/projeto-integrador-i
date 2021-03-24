@@ -35,6 +35,7 @@ button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     outline: 0;
     top: 70vh;
+    right: 39vw;
 }
 
 button:hover {
