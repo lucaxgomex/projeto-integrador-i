@@ -1,0 +1,31 @@
+#container h3 {
+    position: absolute;
+    top: 18vh;
+}
+
+#saldo {
+    position: absolute;
+    background-color: aliceblue;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 20px;
+    top: 25vh;
+    text-align: center;
+    color: green;
+}
+
+#main {
+    position: absolute;
+    padding: 20px;
+    border-radius: 10px;
+    width: 22vw;
+    height: 40vh;
+    bottom: 25vh;
+    background-color: rgb(210, 213, 216);
+    opacity: 0.6;
+    
+}
+
+h4 {
+    
+}
