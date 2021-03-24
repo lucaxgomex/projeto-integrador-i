@@ -19,6 +19,8 @@ form {
     margin-top: 60px;
     padding: 20px;
     align-items: center;
+    justify-content: center;
+    
 }
 
 label {
@@ -38,7 +40,7 @@ input {
 
 button {
     margin-top: 20px;
-    margin-left: 3vw;
+    
 }
 
 #conta {

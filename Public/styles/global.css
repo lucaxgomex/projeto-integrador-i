@@ -27,12 +27,14 @@ body {
 }
 
 button {
+    position: absolute;
     padding: 5px;
     border-radius: 20px;
     border: none;
     width: 22vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     outline: 0;
+    top: 70vh;
 }
 
 button:hover {
