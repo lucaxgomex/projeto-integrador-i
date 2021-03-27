@@ -36,12 +36,16 @@ input {
     border-radius: 20px;
     border: none;
     outline: 0;
+    width: 22vw;
 }
 
-button {
-    margin-top: 20px;
-    
+.entrar:hover {
+    background-color: #85b88a;
+    animation-name: up;
+    animation-duration:300ms;
+    animation-fill-mode: backwards;
 }
+
 
 #conta {
     position: absolute;
