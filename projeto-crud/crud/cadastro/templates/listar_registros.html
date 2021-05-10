@@ -1,0 +1,18 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+<ul>
+    {% for registro in registros %}
+
+    <li>
+        {{ registro.description }} - {{ registro.price }} - {{ registro.date }}
+        <a href="{% url 'atualizar_registro' registro.id %}">EDITAR</a>
+        <a href="{% url 'apagar_registro' registro.id %}">APAGAR REGISTRO</a>
+    </li>
+
+    {% endfor %}
+</ul>
+<a href="{% url 'criar_registro' %}">Novo Registro</a>
+
+{% endblock %}
