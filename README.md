@@ -2,11 +2,11 @@
 Repositório para os arquivos da matéria de projeto integrador 1
 
 ## Membros e disciplinas
-- Guilherme Daniel: Projeto Integrador I, Banco de dados II, Engenharia de Software II, Programação para internet I
+- Guilherme Daniel: Projeto Integrador I; Banco de dados II; Engenharia de Software II; Programação para internet I.
 
-- José Ricardo: Arquitetura de computadores; Programação para internet I, Sistemas Operacionais, Engenharia de Software II, 5. Banco de dados II
+- José Ricardo: Arquitetura de computadores; Programação para internet I; Sistemas Operacionais; Engenharia de Software II; 5. Banco de dados II.
 
-- Breno Avelar: Arquitetura de computadores, Projeto Integrador I, Engenharia de Software II, Sistemas Operacionais
+- Lucas Gomes: Projeto Integrador I; Banco de dados II; Engenharia de Software II; Programação para internet I; Estrutura de Dados II; Sistemas Operacionais.
 
 ## Nome do projeto
 Financer (provisório)
