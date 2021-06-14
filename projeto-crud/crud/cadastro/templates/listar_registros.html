@@ -1,18 +1,25 @@
 {% extends 'base.html'%}
 
 {% block content %}
-
+<button class="novo-registro">
+    <a href="{% url 'criar_registro' %}"><i class="bi bi-plus-circle-fill"></i><h5>Novo Registro</h5></a>
+</button>
 <ul>
     {% for registro in registros %}
-
     <li>
-        {{ registro.description }} - {{ registro.price }} - {{ registro.date }}
-        <a href="{% url 'atualizar_registro' registro.id %}">EDITAR</a>
-        <a href="{% url 'apagar_registro' registro.id %}">APAGAR REGISTRO</a>
+        <div id="descriptions"> <span>Data</span>  <span>Descrição</span>  <span>Valor</span>  <span>Conta</span></div>
+        <div id="informatios">
+            <span>{{ registro.date }}</span><span> {{ registro.description }}</span> <span> R${{ registro.price }}</span>  <span>{{ registro.account }} </span> 
+        </div>
+        <button class="editar-registro">
+            <a href="{% url 'atualizar_registro' registro.id %}"><i class="bi bi-pencil-fill"></i>EDITAR</a>
+        </button>
+        <button class="apagar-registro">
+            <a href="{% url 'apagar_registro' registro.id %}"><i class="bi bi-trash-fill"></i>APAGAR REGISTRO</a>
+        </button>
     </li>
 
     {% endfor %}
 </ul>
-<a href="{% url 'criar_registro' %}">Novo Registro</a>
 
 {% endblock %}
