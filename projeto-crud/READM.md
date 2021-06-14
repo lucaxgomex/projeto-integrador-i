@@ -1,2 +1,2 @@
-### TODO
-- [ ] Elencar pelomentos três regras de negócio.
+### TODO :books:
+- [ ] Elencar no mínimo três regras de negócio.
