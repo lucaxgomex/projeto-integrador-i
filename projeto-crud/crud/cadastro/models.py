@@ -11,4 +11,11 @@ class Registro(models.Model):
 
     def __str__(self):
         return self.description
-    
+
+class Conta(models.Model):
+    name = models.CharField(max_length=50)
+    balance = models.DecimalField(max_digits=9, decimal_places=2)
+
+
+    def __str__(self):
+        return self.name
