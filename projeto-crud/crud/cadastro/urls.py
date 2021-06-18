@@ -5,6 +5,6 @@ urlpatterns = [
     path('', listar_registros, name='listar_registros'),
     path('novo-registro', criar_registro, name='criar_registro'),
     path('atualizar-registro/<int:id>', atualizar_registro, name='atualizar_registro'),
-    path('apagar-registro/<int:id>',apagar_registro, name='apagar_registro'),
+    path('apagar-registro/<int:id>', apagar_registro, name='apagar_registro'),
     path('criar-conta', criar_conta, name='criar_conta')
 ]
