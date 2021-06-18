@@ -4,6 +4,13 @@
 <button class="novo-registro">
     <a href="{% url 'criar_registro' %}"><i class="bi bi-plus-circle-fill"></i><h5>Novo Registro</h5></a>
 </button>
+<br>
+<br>
+<br>
+<button class="">
+    <a href="{% url 'criar_conta' %}"><i class="bi bi-plus-circle-fill"></i><h5>Nova Conta</h5></a>
+</button>
+
 <ul>
     {% for registro in registros %}
     <li>
@@ -11,12 +18,26 @@
         <div id="informatios">
             <span>{{ registro.date }}</span><span> {{ registro.description }}</span> <span> R${{ registro.price }}</span>  <span>{{ registro.account }} </span> 
         </div>
+
         <button class="editar-registro">
             <a href="{% url 'atualizar_registro' registro.id %}"><i class="bi bi-pencil-fill"></i>EDITAR</a>
         </button>
         <button class="apagar-registro">
             <a href="{% url 'apagar_registro' registro.id %}"><i class="bi bi-trash-fill"></i>APAGAR REGISTRO</a>
         </button>
+    </li>
+    {% endfor %}
+</ul>
+
+<ul>
+    {% for conta in contas %}
+    <li>
+        <div>
+            <span>Nome</span>  <span>Saldo</span>
+        </div>
+        <div>
+            <span>{{ conta.name }}</span> <span>{{ conta.balance }}</span>
+        </div>
     </li>
     {% endfor %}
 </ul>
