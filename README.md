@@ -23,6 +23,14 @@ Financer
 ## Prototipo
 [link](https://www.figma.com/file/5ip9y9P7UlZoCa7Rb9gnl4/Financer-web)
 
+## Funcionalidades
+1. Criação de registros
+  - Os registros criados serão exibidos na página incial.
+2. Criação de contas
+  - Será possível adicionar contas para débito e crédito, onde, sempre que um registro for lançado, seu valor será debitado ou creditado no saldo da conta correspondente.
+3. Gastos programados
+  - Será possível adicionar alguns gastos recorrentes, onde o sistema irá avisar sempre que o gasto se aproximar do vencimento ou tiver vencido e não tiver sido pago.
+
 ## Roadmap
 - [x] Documentação
 - [x] Design de telas
