@@ -7,7 +7,8 @@ class Registro(models.Model):
     date = models.DateField(auto_now_add=True)
     description = models.CharField(max_length=255)
     category = models.CharField(max_length=255)
-    account = models.ForeignKey('Conta', on_delete=models.CASCADE)
+    #account = models.ForeignKey('Conta', on_delete=models.CASCADE)
+    account = models.CharField(max_length=255)
 
     def __str__(self):
         return self.description
